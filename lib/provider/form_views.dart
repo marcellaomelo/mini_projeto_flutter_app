@@ -8,7 +8,7 @@ import 'package:provider/provider.dart';
 class FormViews with ChangeNotifier {
   var lista = new List();
 
-  final Map<String, Forms> _items = {...DUMMY_FORMS};
+  final Map<String, Forms> _items = {...dataSource};
   List<Forms> get all {
     return [..._items.values];
   }

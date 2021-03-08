@@ -8,7 +8,7 @@ import 'package:provider/provider.dart';
 class FormViewsFechados with ChangeNotifier {
   var lista = new List();
 
-  final Map<String, Forms> _items = {...DUMMY_FORMS};
+  final Map<String, Forms> _items = {...dataSource};
   static FormViewsFechados _instancia;
   FormViewsFechados._internal();
 
